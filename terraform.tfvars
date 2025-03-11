@@ -2,7 +2,7 @@ project_id            = "eng-artifact-453305-g4"
 region                = "us-central1"
 zone                  = "us-central1-a"
 google_credentials_file = "gcp-key.json"
-vm_name               = "opsAgent_vm"
+vm_name               = "ops_agent_vm"
 startup_script        = <<-EOT
   # Install Ops Agent
   curl -sSO https://dl.google.com/cloudagents/install-ops-agent.sh
